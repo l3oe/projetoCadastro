@@ -2,32 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Formulário cliente</title>
-    <style>
-        body{
-            background-color: rgb(153, 153, 206);
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <form>
-        <legend>Formulario cliente</legend>
-            <label for="nome"> Nome </label><br>
-            <input type="text" name="nome" id="nome" maxlength="200"> <br>
+    <legend>Formulário cliente</legend>
+        <form>
+        
+            <label for="nome"> Nome: </label><br>
+            <input type="text" name="nome" id="nome" maxlength="200" placeholder="Digite o nome..."> <br><br>
     
-            <label for="email"> E-Mail </label><br>
-            <input type="email" name="email" id="email" maxlength="200"><br>
+            <label for="email"> E-mail: </label><br>
+            <input type="email" name="email" id="email" maxlength="200" placeholder="Digite o e-mail..."><br><br>
     
-            <label for="tiporegistro"> Tipo de registro </label><br>
-            <label><input type="radio" name="Documento" id="CPF"> CPF </label>
-            <label><input type="radio" name="Documento" id="RG"> RG </label> <br>
+            <label for="tiporegistro"> Tipo de registro: </label><br>
+            <label><input type="radio" name="Documento" class="registro"> CPF </label>
+            <label><input type="radio" name="Documento" class="registro"> RG </label> <br><br>
     
-            <label for="registro"> Registro </label><br>
-            <input type="text" name="registro" id="registro"> <br>
+            <label for="registro"> Registro: </label><br>
+            <input type="text" name="registro" id="registro" placeholder="Digite o registro..."> <br><br>
 
-            <label><input type="button" name="salvar"> Salvar </label>
+            <label><input id="button" type="button" name="salvar"  value="Salvar"></label>
+
         </form>
 </body>
+
 </html>
