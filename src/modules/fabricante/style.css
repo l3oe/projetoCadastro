@@ -23,12 +23,9 @@ form {
     border-radius: 8px;                               
     box-sizing: border-box;
 }
-#nome:focus, #email:focus, #registro:focus {
-    background-color: rgb(177, 175, 177);
-}
 #button {
     background-color: rgb(241, 225, 97);
     border-radius: 5px;
     padding: 8px;
-    margin: auto;
+    margin: 15px auto;
 }
