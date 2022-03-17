@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário serviço</title>
 </head>
 <body>
-    <form>
-        <legend> Formulário Serviço </legend>
-    
-            <label for="nome"> Nome </label><br>
-            <input type="text" name="nome" id="Nome"><br>
-    
-            <label for="observacao"> Observação </label><br>
-            <input type="text" name="observacao" id="observacao"><br>
-    
-            <label for="preco"> Preço </label><br>
-            <input type="text" name="preco" id="preco"><br>
-    
-            <label for="margem"> Margem </label><br>
-            <input type="text" name="margem" id="margem"><br>
+    <legend> Formulário Serviço </legend>
+        <form>
+            <div>
+                <label for="nome"> Nome </label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="preco"> Preço </label>
+                <input type="text" name="preco" id="preco">
+            </div>
+            <div>
+                <label for="margem"> Margem </label>
+                <input type="text" name="margem" id="margem">
+            </div>
+            <div>
+                <label for="observacao"> Observação </label>
+                <input type="text" name="observacao" id="observacao">
+            </div>
+
+            <button id="button">Salvar</button>
+
         </form>
 </body>
 </html>

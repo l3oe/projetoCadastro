@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário telefones</title>
 </head>
 <body>
-    <div>
-        <legend>div p/ formularios</legend>
-            <p>Tipo de telefone</p>
-                <select>
-                <option value="Residencial"> Residêncial </option>
-                <option value="Celular"> Celular </option>
-                <option value="Comercial"> Comercial </option>
-                </select><br>
-            <p>Telefone</p>
-                <input type="tel" name="tel"><br>
-                <label><input type="button" name="salvar"> Salvar </label>
-        </div>
+    <legend>Formulario de Telefone</legend>
+        <form>
+            
+            <div>
+                <label>Tipo de telefone</label><br>
+                    <select>
+                        <option value="Residencial"> Residêncial </option>
+                        <option value="Celular"> Celular </option>
+                        <option value="Comercial"> Comercial </option>
+                    </select><br>
+
+                <label>Telefone</label><br>
+                <input type="tel" id="telefone"><br>
+            </div>
+
+            <button id="button" value="Salvar">Salvar</label>
+
+        <form>
 </body>
 </html>

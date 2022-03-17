@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-family: sans-serif;
+}
+legend {
+    width: 80%;
+    margin: auto;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+form {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+}
+div {
+    width: 49%;
+    display: inline-block;
+    margin: 20px auto;
+}
+#nome, #observacao, #preco, #margem  {
+    width: 100%;    
+    padding: 8px;
+    border-radius: 8px;                               
+    box-sizing: border-box;
+}
+#nome:focus, #observacao:focus, #preco:focus, #margem:focus {
+    background-color: rgb(177, 175, 177);
+}
+#button {
+    background-color: rgb(241, 225, 97);
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    margin: 20px 0
+}
+@media screen and (max-width: 720px) {
+    div{
+        width: 100%;
+        display: block;
+    }
+}

@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário fornecedor</title>
 </head>
 <body>
-    <form>
-        <legend> Formulário Fornecedor </legend>
-            <label for="nome"> Nome </label><br>
-            <input type="text" name="nome" id="nome"><br>
+    <legend> Formulário Fornecedor </legend>
+        <form>   
+            <div>
+                <label for="nome"> Nome </label><br>
+                <input type="text" name="nome" id="nome"><br>
+
+                <label for="email"> E-Mail </label><br>
+                <input type="text" name="email" id="email"> <br>
+            </div>
+
+            <div>
+                <label> Tipo de registro </label><br><br>
+                <select>
+                    <option value="Residencial"> CNPJ </option>
+                    <option value="Celular"> Inscrição Municipal </option>
+                </select><br><br>
     
-            <p> Tipo de registro </p>
-            <select>
-                <option value="Residencial"> CNPJ </option>
-                <option value="Celular"> Inscrição Municipal </option>
-            </select><br>
-    
-            <label for="registro"> Registro </label><br>
-            <input type="text" name="registro" id="registro"><br>
-    
-            <label for="email"> E-Mail </label><br>
-            <input type="text" name="email" id="email"><br>
+                <label for="registro"> Registro </label><br>
+                <input type="text" name="registro" id="registro"><br>
+            </div>
+
+            <button id="button" value="Salvar">Salvar</button>
+
         </form>
 </body>
 </html>

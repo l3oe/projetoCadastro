@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-family: sans-serif;
+}
+legend {
+    width: 80%;
+    margin: auto;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+form {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+}
+div {
+    width: 45%;
+    display: inline-block;
+    margin: 10px 10px ;
+}
+#endereco, #bairro, #cidade  {
+    width: 100%;
+    margin: 15px auto;
+    padding: 8px;
+    border-radius: 8px;                               
+    box-sizing: border-box;
+    display: inline-block;
+    ;
+}
+select, #cep,  #complemento, #numero, #estado  {
+    width:49%;
+    margin: 15px auto;
+    padding: 8px;
+    border-radius: 8px;                               
+    box-sizing: border-box;
+    display: inline-block;
+}
+select:focus, #cep:focus, #rua:focus, #numero:focus, #complemento:focus, #bairro:focus, #cidade:focus, #estado:focus {
+    background-color: rgb(177, 175, 177);
+}
+#button {
+    background-color: rgb(241, 225, 97);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px;
+    display: block;    
+}
+@media screen and (max-width:767px){
+    div {
+        display: block;    
+        width: 100%;            
+    }
+    select, #cep,  #complemento, #numero, #estado {
+        width: 100%;
+    }
+}

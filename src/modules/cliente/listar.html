@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Formulário cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <legend>Formulário cliente</legend>
+        <form>
+            
+            <div>            
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome" maxlength="200" placeholder="Digite o nome...">
+            </div>
+            <div>
+                <label for="email"> E-mail: </label>
+                <input type="email" id="email" maxlength="200" placeholder="Digite o e-mail...">
+            </div>
+            <div>
+                <label for="tiporegistro"> Tipo de registro: </label><br>
+                    <select>
+                        <option>CPF</option>
+                        <option>RG</option>
+                    </select>                
+            </div>
+            <div>            
+                <label for="registro"> Registro: </label>
+                <input type="text"  id="registro" placeholder="Digite o registro...">
+            </div>
+            
+            <button id="button">Salvar</button>
+
+        </form>
+</body>
+
+</html>
