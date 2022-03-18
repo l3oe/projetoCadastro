@@ -18,13 +18,13 @@ form {
     display: inline-block;
 }
 div {
-    width: 45%;
+    width: 46%;
     display: inline-block;
-    margin: 10px 10px ;
+    margin: auto 10px;
 }
 #endereco, #bairro, #cidade  {
     width: 100%;
-    margin: 15px auto;
+    margin: 10px auto;
     padding: 8px;
     border-radius: 8px;                               
     box-sizing: border-box;
@@ -32,8 +32,8 @@ div {
     ;
 }
 select, #cep,  #complemento, #numero, #estado  {
-    width:49%;
-    margin: 15px auto;
+    width:100%;
+    margin: 10px auto;
     padding: 8px;
     border-radius: 8px;                               
     box-sizing: border-box;

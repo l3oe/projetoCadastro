@@ -10,26 +10,32 @@ legend {
     font-size: 30px;
 }
 form {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 30px;
     border: 2px solid white;
     border-radius: 15px;
-    display: flexbox;
+    display: inline-block;
+}
+div {
+    display: inline-block;
+    width: 49%;
 }
 #nome, #email, #registro, select {
-    width: 100%;
+    width:100%;
     margin: 15px auto;
     padding: 8px;
     border-radius: 8px;                               
     box-sizing: border-box;
+    display: inline-block;
 }
 select {
-    width: 49%;
+    width: 100%;
     margin: auto;
     padding: 8px;
     border-radius: 8px;                               
     box-sizing: border-box;
+    display: inline-block;
 }
 #nome:focus, #email:focus, #registro:focus {
     background-color: rgb(177, 175, 177);

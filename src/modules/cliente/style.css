@@ -34,6 +34,7 @@ div {
 select {
     padding: 8px;
     border-radius: 8px;
+    width: 100%;
 }
 #button {
     background-color: rgb(241, 225, 97);

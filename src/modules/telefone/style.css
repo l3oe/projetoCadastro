@@ -15,10 +15,15 @@ form {
     padding: 30px;
     border: 2px solid white;
     border-radius: 15px;
+    display: inline-block;
+}
+div {
+    width: 49%;
+    display: inline-block;
+    margin: 20px auto;
 }
 #telefone, select {
     width: 100%;
-    margin: 15px auto;
     padding: 8px;
     border-radius: 8px;                               
     box-sizing: border-box;
@@ -30,7 +35,8 @@ form {
     background-color: rgb(241, 225, 97);
     border-radius: 5px;
     padding: 8px;
-    margin: 15px auto;
+    margin: auto 0;
+    display: block;
 }
 @media screen and (max-width: 767px) {
     div {        
