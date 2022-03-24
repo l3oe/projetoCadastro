@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem de serviço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <legend>Formulário de ordem de serviço</legend>
+        <form>
+            <div>
+                <label for="entrada">Data de entrada</label><br>
+                <input type="date" id="ent"> 
+            </div>
+            <div>
+                <label for="saida">Data de saída</label><br>
+                <input type="date" id="sai"> 
+            </div>
+            <div>
+                <label for="status">Status</label><br>
+                <input type="text" id="stat" maxlength="50"> 
+            </div>
+            <div>
+                <label for="orcamento">Orçamento</label><br>
+                <input type="" id="orc"> 
+            </div>
+            <div>
+                <label for="descricao">Descrição do objeto</label><br>
+                <textarea type="text" id="descr" maxlength="1000"></textarea> 
+            </div>
+            <div>
+                <label for="subtotal">Subtotal</label><br>
+                <input type="number" id="num"> 
+            </div>
+            <div>
+                <label for="desconto">Desconto</label><br>
+                <input type="number" id="desco"> 
+            </div>
+            <div>
+                <label for="total">Total</label><br>
+                <input type="number" id="tot"> 
+            </div>
+            <div>
+                <label for="f_pagamento">Forma de pagamento</label><br>
+                <input type="text" id="pag" maxlength="50">
+                    <select>
+                        <option>Á vista</option> 
+                        <option>Pix</option>
+                        <option>Cartão de débito</option>
+                        <option>cartão de crédito</option>
+                    </select>
+            </div>
+            <button id="button">Salvar</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <legend>Formulário de venda</legend>
+        <form>
+            <div>
+                <label for="data">Data da venda</label><br>
+                <input type="date" name="data" id="data">
+            </div>
+            <div>
+                <label for="sub">Subtotal</label><br>
+                <input type="number" name="sub" id="sub">
+            </div>
+            <div>
+                <label for="desc">Desconto</label><br>
+                <input type="number" name="desc" id="desc">
+            </div>
+            <div>
+                <label for="">Total</label><br>
+                <input type="number" name="tot" id="tot">
+            </div>
+            <div>
+                <label for="form">Forma de pagamento</label><br>
+                <input type="text" name="form" id="form" maxlength="50">
+                <select>
+                    <option>À vista</option>
+                    <option>PIX</option>
+                    <option>Cartão de débito</option>
+                    <option>Cartão de crédito</option>
+                </select>
+            </div>
+            <button id="button">Salvar</button>
+        </form>
+</body>
+</html>

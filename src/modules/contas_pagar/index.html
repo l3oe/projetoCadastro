@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contas à pagar</title>
+</head>
+<body>
+    <legend>Formulário de contas à pagar</legend>
+        <form>
+            <div>
+                <label for="DataIncl">Data de inclusão</label><br>
+                <input type="date" name="dataincl" id="dataincl">
+            </div>
+            <div>
+                <label for="DataPag">Data de pagamento</label><br>
+                <input type="date" name="datapag" id="datapag">
+            </div>
+            <div>
+                <label for="ValorTot">Valor total</label><br>
+                <input type="number" name="valortot" id="valortot">
+            </div>
+            <div>
+                <label for="DataVenc">Data de vencimento</label><br>
+                <input type="date" name="datavenc" id="datavenc">
+            </div>
+            <div>
+                <label for="Stat">Status</label><br>
+                <input type="text" name="stat" id="stat" maxlength="50">
+                    <select>
+                        <option>Paga</option>
+                        <option>Vencida</option>
+                        <option>À vencer</option>
+                    </select>
+            </div>
+            <div>
+                <label for="TipoCont">Tipo de conta</label><br>
+                <input type="text" name="tipocont" id="tipocont" maxlength="100">
+            </div>
+        </form>
+</body>
+</html>

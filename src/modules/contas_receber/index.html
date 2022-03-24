@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contas à receber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <legend>Formulário de contas à receber</legend>
+        <form>
+            <div>
+                <label for="dataInc">Data de inclusão</label><br>
+                <input type="date" name="dataInc" id="dataInc">
+            </div>
+            <div>
+                <label for="dataRec">Data de recebimento</label><br>
+                <input type="date" name="dataRec" id="dataRec">
+            </div>
+            <div>
+                <label for="idOp">ID da operação</label><br>
+                <input type="number" name="idOp" id="idOp">
+            </div>
+            <div>
+                <label for="valorTot">Valor total</label><br>
+                <input type="number" name="valorTot" id="valorTot">
+            </div>
+            <div>
+                <label for="stat">Status</label><br>
+                <input type="text" name="stat" id="stat" maxlength="50">
+                    <select>
+                        <option>Paga</option>
+                        <option>Vencida</option>
+                        <option>À vencer</option>
+                    </select>
+            </div>
+            <div>
+                <label for="tipoCont">Tipo de conta</label><br>
+                <input type="text" name="tipoCont" id="tipoCont" maxlength="100">
+            </div>
+
+            <button id="button">Salvar</button>
+        </form>
+</body>
+</html>

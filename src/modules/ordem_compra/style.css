@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-family: sans-serif;
+}
+legend {
+    width: 80%;
+    margin: auto;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+form {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: inline-block;
+}
+div {
+    width: 49%;
+    display: inline-block;
+    margin: 20px auto;
+}
+#ent, #sai, #stat, #num, #desco, #tot, #pag, #for {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;                               
+    box-sizing: border-box;    
+}
+#dataInc:focus, #dataRec:focus, #idOp:focus, #valorTot:focus, #stat:focus, #tipoCont:focus, select:focus {
+    background-color: rgb(177, 175, 177);
+}
+select {
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+}
+#button {
+    background-color: rgb(241, 225, 97);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 20px 0 ;
+    display: block;    
+}
+@media screen and (max-width: 767px) {
+    div {        
+        display: block;
+        width: 100%;
+    }
+}
