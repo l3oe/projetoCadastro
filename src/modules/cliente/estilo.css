@@ -1,10 +1,6 @@
 body{
     background-color: rgb(66, 66, 66);
     color: white;
-<<<<<<< HEAD
-    font-family: sans-serif;
-=======
->>>>>>> 89e7a5426f2a491d08d1162f529fafd6ec274bdf
 }
 legend {
     width: 80%;
@@ -28,10 +24,7 @@ form {
 }
 #nome:focus, #email:focus, #registro:focus {
     background-color: rgb(177, 175, 177);
-<<<<<<< HEAD
-=======
 
->>>>>>> 89e7a5426f2a491d08d1162f529fafd6ec274bdf
 }
 #button {
     background-color: rgb(241, 225, 97);
